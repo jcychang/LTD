@@ -19,17 +19,45 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
-    color: #800080;
+    /*color: #800080;*/
 }
 
 a {
 	color: #000;
-  margin-right: 1em;
+  display: inline-block;
+  margin-right: 1.5em;
 	text-decoration: none;
 }
 
 a:hover {
-  color: #800080;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.2);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.2);
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.2);
+  transition: all 200ms ease-in;
+  transform: scale(1.2);
+}
+
+.lk-jump {
+	color: #800080;
+}
+
+.lk-design {
+	color: #F39D1F;
+}
+
+.lk-build {
+	color: #C92730;
+}
+
+.lk-teach {
+	color: #96B53C;
+}
+
+.lk-reflect {
+	color: #2AB2B1;
 }
 
 .main {
