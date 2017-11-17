@@ -20,6 +20,10 @@
   padding-top: 10em;
 }
 
+.cbp_tmtimeline #reflect{
+  padding-bottom: 10em;
+}
+
 /* The line */
 .cbp_tmtimeline:before {
 	content: '';
