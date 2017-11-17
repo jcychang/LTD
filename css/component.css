@@ -135,22 +135,18 @@
 
 .cbp_tmtimeline li .tl-design-content:after {
   border-right-color: #F39D1F;
-  border-bottom-color: #F39D1F;
 }
 
 .cbp_tmtimeline li .tl-build-content:after {
   border-right-color: #C92730;
-  border-bottom-color: #C92730;
 }
 
 .cbp_tmtimeline li .tl-teach-content:after {
   border-right-color: #96B53C;
-  border-bottom-color: #96B53C;
 }
 
 .cbp_tmtimeline li .tl-reflect-content:after {
   border-right-color: #2AB2B1;
-  border-bottom-color: #2AB2B1;
 }
 
 .cbp_tmtimeline li .tl-contact-content:after {
@@ -233,6 +229,22 @@
 		/*border-bottom-color: #3594cb;*/
 		top: -20px;
 	}
+
+  .cbp_tmtimeline li .tl-design-content:after {
+    border-bottom-color: #F39D1F;
+  }
+
+  .cbp_tmtimeline li .tl-build-content:after {
+    border-bottom-color: #C92730;
+  }
+
+  .cbp_tmtimeline li .tl-teach-content:after {
+    border-bottom-color: #96B53C;
+  }
+
+  .cbp_tmtimeline li .tl-reflect-content:after {
+    border-bottom-color: #2AB2B1;
+  }
 
 	.cbp_tmtimeline li .cbp_tmicon {
 		position: relative;
