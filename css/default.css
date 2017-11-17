@@ -69,7 +69,7 @@ a:hover {
 
 .container > header {
   background: rgba(250,250,250,0.90);
-	padding: 1.5em;
+	padding: 0 1em;
   width: 100%;
   position: fixed;
   top: 0;
