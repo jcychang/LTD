@@ -1,0 +1,238 @@
+@font-face {
+	font-family: 'ecoico';
+	src:url('../fonts/timelineicons/ecoico.eot');
+	src:url('../fonts/timelineicons/ecoico.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/timelineicons/ecoico.woff') format('woff'),
+		url('../fonts/timelineicons/ecoico.ttf') format('truetype'),
+		url('../fonts/timelineicons/ecoico.svg#ecoico') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.cbp_tmtimeline {
+	margin: 30px 0 0 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+}
+
+.cbp_tmtimeline .section {
+  padding-top: 10em;
+}
+
+/* The line */
+.cbp_tmtimeline:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 10px;
+	background: #800080;
+	left: 20%;
+	margin-left: -10px;
+}
+
+/* The date/time */
+.cbp_tmtimeline li .tl-time {
+	display: block;
+	width: 25%;
+	padding-right: 100px;
+	position: absolute;
+}
+
+.cbp_tmtimeline li .tl-time span {
+	display: block;
+	text-align: right;
+}
+
+.cbp_tmtimeline li .tl-time span:first-child {
+	font-size: 1.5em;
+	color: #030303;
+}
+
+.cbp_tmtimeline li .tl-time span:last-child {
+	font-size: 2.9em;
+	color: #030303;
+}
+
+.cbp_tmtimeline li .tl-design span:last-child {
+	color: #F39D1F;
+}
+
+.cbp_tmtimeline li .tl-build span:last-child {
+	color: #C92730;
+}
+
+.cbp_tmtimeline li .tl-teach span:last-child {
+	color: #96B53C;
+}
+
+.cbp_tmtimeline li .tl-reflect span:last-child {
+	color: #2AB2B1;
+}
+
+.cbp_tmtimeline li .tl-contact span:last-child {
+	color: #800080;
+}
+
+/* Right content */
+.cbp_tmtimeline li .tl-content {
+	margin: 0 0 15px 25%;
+  background: #fff;
+	color: #000;
+	padding: 2em;
+	font-size: 1.2em;
+	font-weight: 300;
+	line-height: 1.4;
+	position: relative;
+	border-radius: 5px;
+}
+
+.cbp_tmtimeline li .tl-content h2 {
+	margin-top: 0px;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid rgba(50,50,50,0.5);
+}
+
+.cbp_tmtimeline li .tl-design-content {
+  border: 2px solid #F39D1F;
+}
+
+.cbp_tmtimeline li .tl-build-content {
+  border: 2px solid #C92730;
+}
+
+.cbp_tmtimeline li .tl-teach-content {
+  border: 2px solid #96B53C;
+}
+
+.cbp_tmtimeline li .tl-reflect-content {
+  border: 2px solid #2AB2B1;
+}
+
+.cbp_tmtimeline li .tl-contact-content {
+  border: 2px solid #800080;
+}
+
+/* The triangle */
+.cbp_tmtimeline li .tl-content:after {
+	right: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-width: 10px;
+	top: 10px;
+}
+
+.cbp_tmtimeline li .tl-design-content:after {
+  border-right-color: #F39D1F;
+}
+
+.cbp_tmtimeline li .tl-build-content:after {
+  border-right-color: #C92730;
+}
+
+.cbp_tmtimeline li .tl-teach-content:after {
+  border-right-color: #96B53C;
+}
+
+.cbp_tmtimeline li .tl-reflect-content:after {
+  border-right-color: #2AB2B1;
+}
+
+.cbp_tmtimeline li .tl-contact-content:after {
+  border-right-color: #800080;
+}
+
+/* The icons */
+.cbp_tmtimeline li .cbp_tmicon {
+	width: 40px;
+	height: 40px;
+	font-family: 'ecoico';
+  float: left;
+	font-size: 1.4em;
+	line-height: 40px;
+	-webkit-font-smoothing: antialiased;
+	position: relative;
+	color: #fff;
+	border-radius: 50%;
+	box-shadow: 0 0 0 4px #800080;
+	text-align: center;
+	left: 20%;
+	top: 0;
+	margin: 0 0 0 -25px;
+}
+
+.tl-design-icon {
+    background: #F39D1F;
+}
+
+.tl-build-icon {
+    background: #C92730;
+}
+
+.tl-teach-icon {
+    background: #96B53C;
+}
+
+.tl-reflect-icon {
+    background: #2AB2B1;
+}
+
+.tl-contact-icon {
+    background: #800080;
+}
+
+/* Example Media Queries */
+@media screen and (max-width: 65.375em) {
+
+	.cbp_tmtimeline li .cbp_tmtime span:last-child {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (max-width: 47.2em) {
+	.cbp_tmtimeline:before {
+		display: none;
+	}
+
+	.cbp_tmtimeline li .cbp_tmtime {
+		width: 100%;
+		position: relative;
+		padding: 0 0 20px 0;
+	}
+
+	.cbp_tmtimeline li .cbp_tmtime span {
+		text-align: left;
+	}
+
+	.cbp_tmtimeline li .cbp_tmlabel {
+		margin: 0 0 30px 0;
+		padding: 1em;
+		font-weight: 400;
+		font-size: 95%;
+	}
+
+	.cbp_tmtimeline li .cbp_tmlabel:after {
+		right: auto;
+		left: 20px;
+		border-right-color: transparent;
+		border-bottom-color: #3594cb;
+		top: -20px;
+	}
+
+	.cbp_tmtimeline li:nth-child(odd) .cbp_tmlabel:after {
+		border-right-color: transparent;
+		border-bottom-color: #6cbfee;
+	}
+
+	.cbp_tmtimeline li .cbp_tmicon {
+		position: relative;
+		float: right;
+		left: auto;
+		margin: -55px 5px 0 0px;
+	}
+}
