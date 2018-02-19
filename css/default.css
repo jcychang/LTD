@@ -22,14 +22,14 @@ body {
     /*color: #800080;*/
 }
 
-a {
+.page-scroll {
 	color: #000;
   display: inline-block;
   margin-right: 1.5em;
 	text-decoration: none;
 }
 
-a:hover {
+.page-scroll:hover {
   -webkit-transition: all 200ms ease-in;
   -webkit-transform: scale(1.2);
   -ms-transition: all 200ms ease-in;
@@ -38,6 +38,19 @@ a:hover {
   -moz-transform: scale(1.2);
   transition: all 200ms ease-in;
   transform: scale(1.2);
+}
+
+.link {
+  -webkit-transition: all 200ms ease-in;
+  -ms-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  color: #a64ca6;
+  text-decoration: underline;
+}
+.link:hover {
+  color: #800080;
+  font-weight: bold;
 }
 
 .lk-jump {
