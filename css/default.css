@@ -46,7 +46,7 @@ body {
   -moz-transition: all 200ms ease-in;
   transition: all 200ms ease-in;
   color: #a64ca6;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .link:hover {
   color: #800080;
