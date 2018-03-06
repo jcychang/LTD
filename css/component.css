@@ -51,33 +51,33 @@
 	text-align: right;
 }
 
-.cbp_tmtimeline li .tl-time span:first-child {
+.cbp_tmtimeline li .tl-time span:last-child {
 	font-size: 1.5em;
 	color: #030303;
 }
 
-.cbp_tmtimeline li .tl-time span:last-child {
+.cbp_tmtimeline li .tl-time span:first-child {
 	font-size: 2.9em;
 	color: #030303;
 }
 
-.cbp_tmtimeline li .tl-design span:last-child {
+.cbp_tmtimeline li .tl-design span:first-child {
 	color: #F39D1F;
 }
 
-.cbp_tmtimeline li .tl-build span:last-child {
+.cbp_tmtimeline li .tl-build span:first-child {
 	color: #C92730;
 }
 
-.cbp_tmtimeline li .tl-teach span:last-child {
+.cbp_tmtimeline li .tl-teach span:first-child {
 	color: #96B53C;
 }
 
-.cbp_tmtimeline li .tl-reflect span:last-child {
+.cbp_tmtimeline li .tl-reflect span:first-child {
 	color: #2AB2B1;
 }
 
-.cbp_tmtimeline li .tl-contact span:last-child {
+.cbp_tmtimeline li .tl-contact span:first-child {
 	color: #800080;
 }
 
@@ -97,7 +97,7 @@
 .cbp_tmtimeline li .tl-content h2 {
 	margin-top: 0px;
 	padding: 0 0 10px 0;
-	border-bottom: 1px solid rgba(50,50,50,0.5);
+	border-bottom: 1px solid #800080;
 }
 
 .cbp_tmtimeline li .tl-design-content {
